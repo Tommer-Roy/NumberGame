@@ -1,0 +1,91 @@
+Welcome to the guessing game!
+What would you like to do? help
+Enter one of the following commands:
+    help - prints this message
+    play - plays the game
+    quit - exits the program
+    set number - sets the maximum number of attempts
+    set high - sets the highest value
+    set low - sets the lowest value
+    reset - resets to the default values
+
+What would you like to do? play
+Enter a number between 1 and 100: 50
+Too high!
+Enter a number between 1 and 100: 14.5
+Invalid guess, please enter a whole number.
+Enter a number between 1 and 100: -3
+Invalid guess, please enter a whole number.
+Enter a number between 1 and 100: 120
+Invalid guess, please enter a number between 1 and 100.
+Enter a number between 1 and 100: 0.5
+Invalid guess, please enter a whole number.
+Enter a number between 1 and 100: 0
+Invalid guess, please enter a number between 1 and 100.
+Enter a number between 1 and 100: -2
+Invalid guess, please enter a whole number.
+Enter a number between 1 and 100: five
+Invalid guess, please enter a whole number.
+Enter a number between 1 and 100: 5
+Too low!
+Enter a number between 1 and 100: 55
+Too high!
+Enter a number between 1 and 100: 23
+Too high!
+Enter a number between 1 and 100: 12
+Too high!
+Enter a number between 1 and 100: 5
+Too low!
+Enter a number between 1 and 100: 6
+Correct!
+Dave took 7 attempts to guess the number 6.
+HAL failed to guess the number 6 in 50 attempts.
+The winner is Dave with 7 attempts!
+What would you like to do? set max
+Invalid command. Type 'help' for a list of commands.
+What would you like to do? help
+Enter one of the following commands:
+    help - prints this message
+    play - plays the game
+    quit - exits the program
+    set number - sets the maximum number of attempts
+    set high - sets the highest value
+    set low - sets the lowest value
+    reset - resets to the default values
+
+What would you like to do? set min
+Invalid command. Type 'help' for a list of commands.
+What would you like to do? set low
+Enter a new whole number value for lowest value: 5
+What would you like to do? set high
+Enter a new whole number value for highest value: 120
+What would you like to do? play
+Enter a number between 5 and 120: 2
+Invalid guess, please enter a number between 5 and 120.
+Enter a number between 5 and 120: 122
+Invalid guess, please enter a number between 5 and 120.
+Enter a number between 5 and 120: 44
+Too low!
+Enter a number between 5 and 120: 2
+Invalid guess, please enter a number between 5 and 120.
+Enter a number between 5 and 120: 6
+Too low!
+Enter a number between 5 and 120: 23
+Too low!
+Enter a number between 5 and 120: 34
+Too low!
+Enter a number between 5 and 120: 45
+Too low!
+Enter a number between 5 and 120: 67
+Too low!
+Enter a number between 5 and 120: 88
+Too high!
+Enter a number between 5 and 120: 77
+Correct!
+Dave took 8 attempts to guess the number 77.
+HAL failed to guess the number 77 in 50 attempts.
+The winner is Dave with 8 attempts!
+What would you like to do? quit
+Thanks for playing!
+
+Process finished with exit code 0
